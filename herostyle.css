@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+}
+#hero-image{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#hero-text h1{
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color:rgb(255, 115, 0);
+}
+#hero-text button{
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    background-color: transparent;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 20px;
+    
+    
+}
+#hero-text button:hover{
+    color: crimson;
+}
